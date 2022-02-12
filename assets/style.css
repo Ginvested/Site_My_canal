@@ -1,0 +1,151 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: rgb(26, 26, 31);
+    position: relative;
+;
+
+}
+header{
+    position: fixed;
+    height: 8vh;
+    width: 100%;
+    display: flex;
+    border-bottom: solid 0.5px rgb(70, 67, 62);
+    z-index: 1;
+    background-color: rgb(26, 26, 31);
+}
+.dflex{
+    display: flex;
+}
+img.logo{
+    height: 8vh;
+}
+ul.UlMenu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+ 
+}
+li.menu{
+    display: inline;
+    margin-right: 3%;
+}
+.divMenu{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    margin-left: 2vw;
+}
+li.menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 2vh;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+li.menu a:hover{
+    
+    color: rgb(202, 5, 5);
+}
+.divLogin{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+li.login{
+    display: inline;
+    margin-right: 10%;
+}
+ul.UlLogin{
+    justify-content: flex-end;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 30%;
+
+
+}
+
+li.login a{
+    font-size: 3vh;
+    color: white;
+    text-decoration: none;
+}
+main{
+    position: absolute;
+    width: 100%;
+    top: 10vh;
+    height: 200vh;
+}
+
+.carousel{
+    height: 45vh;
+}
+.LiCarousel{
+    display: inline;
+    margin-right:1vw ;
+}
+
+.UlCarousel{
+    display: flex;
+    margin: 0;
+    position: absolute;
+    top: 5vh;
+    left: 1vw;
+
+}
+.carousel-control-next-icon{
+    background-color: black;
+}
+.carousel-control-prev-icon{
+    background-color: black;
+}
+.SecondMenu{
+    position: relative;
+    display: flex;
+    height: 12vh;
+    overflow: hidden;
+    align-items: flex-start;
+    margin-left: 2.5vw;
+    width: 45%;
+    justify-content: space-between;
+}
+.lecture{
+    display: flex;
+    position: relative;
+    height: 35vh;
+    
+    width: 95%;
+    margin-left: 2.5vw;
+    margin-top: 4Vh;
+    align-items: center;
+}
+div.lecture div img{
+    margin-right: 2vw;
+}
+h3{
+    position: absolute;
+    top: 1vh;
+}
+h4 a{
+    text-decoration: none;
+    position: absolute;
+    color: brown;
+    top: 1vh;
+    right: 1vw;
+}
+h3, h5, h6{
+    color: aliceblue;
+}
+
+footer{
+    height: 20vh;
+  
+}
+
+
