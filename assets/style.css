@@ -3,9 +3,6 @@ body{
     padding: 0;
     height: 100vh;
     background-color: rgb(26, 26, 31);
-    position: relative;
-;
-
 }
 header{
     position: fixed;
@@ -13,7 +10,7 @@ header{
     width: 100%;
     display: flex;
     border-bottom: solid 0.5px rgb(70, 67, 62);
-    z-index: 1;
+    z-index: 2;
     background-color: rgb(26, 26, 31);
 }
 .dflex{
@@ -23,7 +20,7 @@ img.logo{
     height: 8vh;
 }
 ul.UlMenu{
-    list-style-type: none;
+
     margin: 0;
     padding: 0;
     width: 100%;
@@ -77,14 +74,15 @@ li.login a{
     text-decoration: none;
 }
 main{
-    position: absolute;
+    position: relative;
     width: 100%;
     top: 10vh;
-    height: 200vh;
+    height: 100vh;
 }
 
 .carousel{
     height: 45vh;
+    overflow: hidden;
 }
 .LiCarousel{
     display: inline;
@@ -144,8 +142,84 @@ h3, h5, h6{
 }
 
 footer{
-    height: 20vh;
-  
+
+    display: flex;
+    background-color: black;
+
 }
 
+.divProgram{
+    width:35%;
+    padding: 1%;
 
+    
+}
+ul.UlFooter{
+    list-style-type: none;
+    padding: 0;
+    margin-right: 6vw;
+}
+.divLu{
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-items: center;
+    
+}
+ul.UlFooter li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+ul.UlFooter li{
+    margin-bottom: 1vh;
+}
+.divProgram h5{
+    width: 100%;
+}
+hr{
+    color: aliceblue;
+}
+.divDroitFooter{
+    width: 30%;
+    position: relative;
+}
+.RSociaux{
+    position: absolute;
+    top: 2vh;
+    right: 2vw;
+    width: 50%;
+}
+.UlRSociaux{
+    list-style-type: none;
+    height: 5vh;
+    width: 100%;
+    padding: 0;
+    justify-content: flex-end;
+
+}
+.UlRSociaux li{
+    display: inline;
+    margin-right: 1vw;
+    border-radius: 50%;
+}
+.UlRSociaux li a{
+    font-size: 3vh;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.Texte{
+    position: absolute;
+    bottom: 7vh;
+    right: 1vw;
+    justify-content: flex-end;
+}
+p{
+    text-align: end;
+    color: aliceblue;
+}
+.h3{
+    position: absolute;
+    top: 9vh;
+    right: 1vw;
+}
