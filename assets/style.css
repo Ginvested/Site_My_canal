@@ -3,6 +3,8 @@ body{
     padding: 0;
     height: 100vh;
     background-color: rgb(26, 26, 31);
+
+    
 }
 header{
     position: fixed;
@@ -73,13 +75,19 @@ li.login a{
     color: white;
     text-decoration: none;
 }
+li.login a:hover{
+    color: brown;
+}
 main{
     position: relative;
     width: 100%;
     top: 10vh;
     height: 100vh;
 }
-
+.boutton{
+    background-color: rgb(26, 26, 31);
+    border: rgb(26, 26, 31);
+}
 .carousel{
     height: 45vh;
     overflow: hidden;
@@ -208,6 +216,7 @@ hr{
     text-decoration: none;
 }
 
+
 .Texte{
     position: absolute;
     bottom: 7vh;
@@ -222,4 +231,36 @@ p{
     position: absolute;
     top: 9vh;
     right: 1vw;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    body{
+        width: 200vw;
+    }
+
+    header{
+        flex-wrap: wrap;
+    }
+    img.logo{
+        display: none;
+    }
+    li.menu a{
+        text-decoration: none;
+        color: rgb(244, 245, 250);
+        font-size: 1.8vh;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    }
+
+    .divMenu{
+        width: 100%;  
+    }
+    .divLogin{
+        width: 100%;
+        justify-content: center;
+    }
+    .UlLogin{
+        display: inline;
+        width: 100%;
+    }
 }
